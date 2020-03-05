@@ -147,7 +147,7 @@ document.write("<br/>---------------------------------------------<br/>");
  document.write("<br/>");
  var num=5;
  for(var m=num; m>=0; m--){
-  for(var n=m; n>0; n--){
+  for(var n=num; n>0; n--){
    document.write(" "+n+" ");
  }
   document.write("<br />");
