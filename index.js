@@ -107,6 +107,18 @@ document.write("<br/>---------------------------------------------<br/>");
  document.write("Number pattern");
  document.write("<br/>");
  var num=5;
+ for(var m=num; m>=0; m--){
+  for(var n=1; n<=m; n++){
+   document.write(" "+n+" ");
+ }
+  document.write("<br />");
+ }
+ document.write("<br/>---------------------------------------------<br/>");
+//-------------------------------------------------
+
+ document.write("Number pattern");
+ document.write("<br/>");
+ var num=5;
  for(var m=1; m<=num; m++){
   for(var n=m;n > 0;n--){
    document.write(" "+n+" ");
@@ -115,18 +127,7 @@ document.write("<br/>---------------------------------------------<br/>");
  }
  document.write("<br/>---------------------------------------------<br/>");
 
-//-------------------------------------------------
 
- document.write("Number pattern");
- document.write("<br/>");
- var num=5;
- for(var m=num; m>=0; m--){
-  for(var n=1; n<=m; n++){
-   document.write(" "+n+" ");
- }
-  document.write("<br />");
- }
- document.write("<br/>---------------------------------------------<br/>");
 
 //-------------------------------------------------
 
@@ -145,9 +146,23 @@ document.write("<br/>---------------------------------------------<br/>");
 
  document.write("Number pattern");
  document.write("<br/>");
- var num=5;
- for(var m=num; m>=0; m--){
-  for(var n=num; n>0; n--){
+ var num = 5;
+ for(var m=1; m<=num; m++){
+  for(var n=m; n<=num; n++){
+   document.write(" "+n+" ");
+ }
+  document.write("<br />");
+ }
+ document.write("<br/>---------------------------------------------<br/>");
+
+//------------------------------------------
+
+
+ document.write("Number pattern");
+ document.write("<br/>");
+ var num = 5;
+ for(var m=num; m>0; m--){
+  for(var n=m; n<=num; n++){
    document.write(" "+n+" ");
  }
   document.write("<br />");
