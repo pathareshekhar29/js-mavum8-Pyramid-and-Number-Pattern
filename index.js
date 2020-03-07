@@ -170,3 +170,21 @@ document.write("<br/>---------------------------------------------<br/>");
  document.write("<br/>---------------------------------------------<br/>");
 
 //------------------------------------------
+
+document.write("Number pattern");
+document.write("<br/>");
+var no=5;
+for(var m=1;m<=no;m++){
+ for(var n=1;n<=m;n++){
+   document.write(" "+n+" ");
+ }
+ document.write("<br />");
+}
+for(var m=num; m>=0; m--){
+  for(var n=1; n<=m-1; n++){
+   document.write(" "+n+" ");
+ }
+  document.write("<br />");
+ }
+ document.write("<br/>---------------------------------------------<br/>");
+//-------------------------------------------------
